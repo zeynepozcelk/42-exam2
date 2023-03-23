@@ -29,3 +29,13 @@ int     *ft_range(int start, int end)
 	return(arr);
 }
 
+int main()
+{
+	int i = 0;
+	int *arr = ft_range(0,4);
+	while(i < 3)
+	{
+		printf("%d",arr[i]);
+		i++;
+	}
+}
